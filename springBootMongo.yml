@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: ramesh8800/spring-boot-mongo:$BUILD_NUMBER
         name: springboot
         ports:
         - name: springboot
